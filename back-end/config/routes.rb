@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-    get 'foods/' => 'foods#index'
-    post 'foods/' => 'foods#create'
+    get '/cuisines' => 'cuisines#index'
+    post '/cuisines' => 'cuisines#create'
 
 end
